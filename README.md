@@ -4,22 +4,17 @@ A Python-based automation framework designed for **remote control, real-time dat
 
 > ✳ **Core Use Case:** Perfect for Hardware-in-the-Loop (HIL) testing, component characterization, and validating physical circuits against simulated models (e.g., Cadence Virtuoso designs).
 
----
-## ✳ System Architecture
+## ✳️ System Architecture & Stack
 
-The physical and logical connection of the automated testbench is structured as follows:
-## **Technologies: ** Agilent 33612A (Arbitrary Waveform Generator), Keysight MSO9404A (Mixed Signal Oscilloscope)
-## **Connection:** BNC Coaxial Cable (signal output), TCP/IP, Ethernet, VISA Protocol
-## **Coding: ** Python Automation Engine
-  - PyVISA Control
-  - SCPI Command Dispatcher
-  - Toolkits: Python, PyVISA, NumPy, Pandas, Matplotlib.
+The physical and logical integration of the automated testbench is structured as follows:
 
-## **Protocols & Standards:** TCP/IP, IEEE 488 (GPIB), SCPI Commands.
-## **Data Processing & Analytics: ** 
-   - Matplotlib Plots
-   - Signal Analysis
-
+| Layer | Component & Technologies |
+| :--- | :--- |
+| **Hardware Components** | Agilent 33612A (Arbitrary Waveform Generator) <br> Keysight MSO9404A (Mixed Signal Oscilloscope) |
+| **Physical Connectivity** | BNC Coaxial Cable (Signal Path) <br> Ethernet (LAN Cable) |
+| **Protocols & Standards** | TCP/IP, VISA Protocol, IEEE 488 (GPIB), SCPI Commands |
+| **Automation Engine** | **Python** (PyVISA Control, SCPI Command Dispatcher) |
+| **Data Processing & Analytics** | NumPy, Pandas, Matplotlib Plots, Signal Analysis |
 ## ✳ Hardware Setup
 
 The framework is developed and tested using industry-standard laboratory equipment:
