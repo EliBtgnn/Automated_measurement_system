@@ -8,15 +8,15 @@ A Python-based automation framework designed for **remote control, real-time dat
 ## ✳ System Architecture
 
 The physical and logical connection of the automated testbench is structured as follows:
-**Technologies: ** Agilent 33612A (Arbitrary Waveform Generator), Keysight MSO9404A (Mixed Signal Oscilloscope)
-**Connection:** BNC Coaxial Cable (signal output), TCP/IP, Ethernet, VISA Protocol
-**Coding: ** Python Automation Engine
+# **Technologies: ** Agilent 33612A (Arbitrary Waveform Generator), Keysight MSO9404A (Mixed Signal Oscilloscope)
+# **Connection:** BNC Coaxial Cable (signal output), TCP/IP, Ethernet, VISA Protocol
+# **Coding: ** Python Automation Engine
   - PyVISA Control
   - SCPI Command Dispatcher
   - Toolkits: Python, PyVISA, NumPy, Pandas, Matplotlib.
 
-Protocols & Standards: TCP/IP, IEEE 488 (GPIB), SCPI Commands.
-**Data Processing & Analytics: ** 
+# **Protocols & Standards:** TCP/IP, IEEE 488 (GPIB), SCPI Commands.
+# **Data Processing & Analytics: ** 
    - Matplotlib Plots
    - Signal Analysis
 
