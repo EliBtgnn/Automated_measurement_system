@@ -43,4 +43,23 @@ The framework is developed and tested using industry-standard laboratory equipme
 * Direct export of captured waveforms to structured `.csv` files.
 
 ---
+
+## ✱ Projects completed
+
+### 1. Remote creation of pulses
+* Python scripts with pyvisa library that controls the instruments to create pulses.
+* Dynamic configuration of output wave shapes (Sine, Sqyare, Trg, Ramp).
+* Sweep constrols for frequency and amplitude values.
+
+### 2. Remote creation of pulses and screenshots on oscilloscope's screen
+* Screeshot data from oscilloscope screen when waveforms occur.
+* Saving screenshots in desktop accurately on time and clarity.
+
+### 3. Oscilloscope Data Acquisition
+* Autoscale and channel-specific coupling configurations via SCPI.
+* Continuous time-domain voltage logging.
+* High-speed raw waveform point extraction for deeper numerical analysis.
+* Direct export of captured waveforms to structured `.csv` files.
+
+
 *Developed in personal interest and experimental test automations at ECE NTUA labs.*
