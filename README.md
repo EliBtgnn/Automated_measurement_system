@@ -2,9 +2,9 @@
 
 A Python-based automation framework designed for **remote control, real-time data acquisition, and verification of laboratory instruments**. By leveraging the **PyVISA** library and executing **SCPI** (Standard Commands for Programmable Instruments) commands over TCP/IP, this system bypasses manual lab measurements to enable fast, repeatable, and automated experimental workflows.
 
-> ✳ **Core Use Case:** Perfect for Hardware-in-the-Loop (HIL) testing, component characterization, and validating physical circuits against simulated models (e.g., Cadence Virtuoso designs).
+> ✱ **Core Use Case:** Perfect for Hardware-in-the-Loop (HIL) testing, component characterization, and validating physical circuits against simulated models (e.g., Cadence Virtuoso designs).
 
-## ✳️ System Architecture & Stack
+## ✱ System Architecture & Stack
 
 The physical and logical integration of the automated testbench is structured as follows:
 
@@ -15,7 +15,7 @@ The physical and logical integration of the automated testbench is structured as
 | **Protocols & Standards** | TCP/IP, VISA Protocol, IEEE 488 (GPIB), SCPI Commands |
 | **Automation Engine** | **Python** (PyVISA Control, SCPI Command Dispatcher) |
 | **Data Processing & Analytics** | NumPy, Pandas, Matplotlib Plots, Signal Analysis |
-## ✳ Hardware Setup
+## ✱ Hardware Setup
 
 The framework is developed and tested using industry-standard laboratory equipment:
 
@@ -25,7 +25,7 @@ The framework is developed and tested using industry-standard laboratory equipme
 
 ---
 
-## ✳ Key Implemented Features
+## ✱ Key Implemented Features
 
 ### 1. Remote Instrument Connection
 * Establishes stable TCP/IP socket connections to target IP addresses using PyVISA resource managers.
