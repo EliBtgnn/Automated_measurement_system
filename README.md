@@ -54,7 +54,7 @@ The framework is developed and tested using industry-standard laboratory equipme
 ### 2. Remote creation of pulses and screenshots on oscilloscope's screen
 * Screeshot data from oscilloscope screen when waveforms occur.
 * Saving screenshots in desktop accurately on time and clarity.
-* Oscilloscope Screenshots
+* Oscilloscope Screenshots:
 
 | Triangle Wave | Sine Wave | Square Wave |
 |:-------------:|:---------:|:-----------:|
