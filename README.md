@@ -1,42 +1,26 @@
 # 📡 Remote Laboratory Instrument Automation using Python
 
-A robust, Python-based automation framework designed for **remote control, real-time data acquisition, and verification of laboratory instruments**. By leveraging the **PyVISA** library and executing **SCPI** (Standard Commands for Programmable Instruments) commands over TCP/IP, this system bypasses manual lab measurements to enable fast, repeatable, and automated experimental workflows.
+A Python-based automation framework designed for **remote control, real-time data acquisition, and verification of laboratory instruments**. By leveraging the **PyVISA** library and executing **SCPI** (Standard Commands for Programmable Instruments) commands over TCP/IP, this system bypasses manual lab measurements to enable fast, repeatable, and automated experimental workflows.
 
-> ⚡ **Core Use Case:** Perfect for Hardware-in-the-Loop (HIL) testing, component characterization, and validating physical circuits against simulated models (e.g., Cadence Virtuoso designs).
+> ✳ **Core Use Case:** Perfect for Hardware-in-the-Loop (HIL) testing, component characterization, and validating physical circuits against simulated models (e.g., Cadence Virtuoso designs).
 
 ---
-## 📐 System Architecture
+## ✳ System Architecture
 
 The physical and logical connection of the automated testbench is structured as follows:
-+----------------------------------+
-|  Agilent 33612A                  |
-|  Arbitrary Waveform Generator    |
-+-----------------+----------------+
-                  |
-                  | [BNC Coaxial Cable / Signal Out]
-                  v
-+-----------------+----------------+
-|  Keysight MSO9404A               |
-|  Mixed Signal Oscilloscope       |
-+-----------------+----------------+
-                  |
-                  | [TCP/IP / Ethernet / VISA Protocol]
-                  v
-+-----------------+----------------+
-|  Python Automation Engine        |
-|  - PyVISA Control                |
-|  - SCPI Command Dispatcher       |
-+-----------------+----------------+
-                  |
-                  v
-+-----------------+----------------+
-|  Data Processing & Analytics     |
-|  - Matplotlib Plots (PNG)        |
-|  - Signal Analysis (CSV / NumPy) |
-+----------------------------------+
----
+**Technologies: ** Agilent 33612A (Arbitrary Waveform Generator), Keysight MSO9404A (Mixed Signal Oscilloscope)
+**Connection:** BNC Coaxial Cable (signal output), TCP/IP, Ethernet, VISA Protocol
+**Coding: ** Python Automation Engine
+  - PyVISA Control
+  - SCPI Command Dispatcher
+  - Toolkits: Python, PyVISA, NumPy, Pandas, Matplotlib.
 
-## 🛠️ Hardware Setup
+Protocols & Standards: TCP/IP, IEEE 488 (GPIB), SCPI Commands.
+**Data Processing & Analytics: ** 
+   - Matplotlib Plots
+   - Signal Analysis
+
+## ✳ Hardware Setup
 
 The framework is developed and tested using industry-standard laboratory equipment:
 
@@ -46,7 +30,7 @@ The framework is developed and tested using industry-standard laboratory equipme
 
 ---
 
-## 🚀 Key Implemented Features
+## ✳ Key Implemented Features
 
 ### 1. Remote Instrument Connection
 * Establishes stable TCP/IP socket connections to target IP addresses using PyVISA resource managers.
@@ -64,3 +48,4 @@ The framework is developed and tested using industry-standard laboratory equipme
 * Direct export of captured waveforms to structured `.csv` files.
 
 ---
+*Developed in personal interest and experimental test automations at ECE NTUA labs.*
