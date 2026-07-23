@@ -25,25 +25,6 @@ The framework is developed and tested using industry-standard laboratory equipme
 
 ---
 
-## ✱ Key Implemented Features
-
-### 1. Remote Instrument Connection
-* Establishes stable TCP/IP socket connections to target IP addresses using PyVISA resource managers.
-* Automates instrument discovery and identification queries (`*IDN?`).
-
-### 2. Waveform Generator Automation
-* Dynamic configuration of output wave shapes (Sine, Square, Ramp).
-* Remote sweep controls for **Frequency** and **Amplitude** values.
-* Programmatic output state toggling (`OUTP ON`/`OFF`).
-
-### 3. Oscilloscope Data Acquisition
-* Autoscale and channel-specific coupling configurations via SCPI.
-* Continuous time-domain voltage logging.
-* High-speed raw waveform point extraction for deeper numerical analysis.
-* Direct export of captured waveforms to structured `.csv` files.
-
----
-
 ## ✱ Projects completed
 
 ### 1. Remote creation of pulses
